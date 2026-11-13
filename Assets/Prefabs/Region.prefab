@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5461894263739611961}
   - component: {fileID: 8138786147514263073}
   - component: {fileID: 7406476626161336339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Region
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,6 +125,7 @@ MonoBehaviour:
   neutralColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   blueColor: {r: 0.2, g: 0.4, b: 0.9, a: 1}
   redColor: {r: 0.85, g: 0.2, b: 0.2, a: 1}
+  disconnectedAlpha: 0.35
 --- !u!61 &7406476626161336339
 BoxCollider2D:
   m_ObjectHideFlags: 0
