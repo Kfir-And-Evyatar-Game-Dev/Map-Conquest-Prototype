@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 3929787003849477894}
   - component: {fileID: 1616660841359715946}
   - component: {fileID: 4517300294157244736}
+  - component: {fileID: 4810224641573657915}
+  - component: {fileID: 1423873215771437284}
   m_Layer: 7
   m_Name: Tank
   m_TagString: Untagged
@@ -202,6 +204,38 @@ MonoBehaviour:
   blueColor: {r: 0.35, g: 0.55, b: 1, a: 1}
   redColor: {r: 1, g: 0.35, b: 0.35, a: 1}
   selectionRing: {fileID: 8882505084241377964}
+--- !u!114 &4810224641573657915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309552326549241968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee57172298f85ea4a988fb8f1d909b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+--- !u!114 &1423873215771437284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309552326549241968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f51340c0d3ee48b06e8bb1e2a1126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gun
+  shellPrefab: {fileID: 7752706958375624651, guid: d30fe0383aae9d049a19ea316311457f, type: 3}
+  range: 4
+  secondsBetweenShots: 1.5
+  launchForce: 8
+  muzzleDistance: 0.7
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &8882505084241377964
 GameObject:
   m_ObjectHideFlags: 0
