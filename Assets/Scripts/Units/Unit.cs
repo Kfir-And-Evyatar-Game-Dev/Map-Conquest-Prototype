@@ -24,4 +24,10 @@ public class Unit : MonoBehaviour
         IsSelected = isSelected;
         SelectionChanged?.Invoke(isSelected);
     }
+
+    /// <summary>Called by the factory right after it creates the unit.</summary>
+    public void Initialize(Team newTeam)
+    {
+        team = newTeam;
+    }
 }

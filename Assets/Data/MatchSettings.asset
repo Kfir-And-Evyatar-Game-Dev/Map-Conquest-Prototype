@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd716eb42cb47343b7a5358571bd25d, type: 3}
+  m_Name: MatchSettings
+  m_EditorClassIdentifier: Assembly-CSharp::MatchSettings
+  <StartingResources>k__BackingField: 60
+  <IncomeIntervalSeconds>k__BackingField: 5
+  <BaseIncome>k__BackingField: 5
+  <RegionIncome>k__BackingField: 2
+  <ResourceRegionIncome>k__BackingField: 4
+  <MaxUnitsPerTeam>k__BackingField: 12
