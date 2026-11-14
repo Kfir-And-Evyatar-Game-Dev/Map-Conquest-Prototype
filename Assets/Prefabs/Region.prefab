@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5461894263739611961}
   - component: {fileID: 8138786147514263073}
   - component: {fileID: 7406476626161336339}
+  - component: {fileID: 4381091659101433830}
   m_Layer: 6
   m_Name: Region
   m_TagString: Untagged
@@ -172,3 +173,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4381091659101433830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8750039183026243864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cc1dc96b0cdb14db294db00bb4a5ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RegionCapture
